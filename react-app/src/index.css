@@ -107,6 +107,7 @@ nav a {
 }
 .two {
   color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 10px white;
   transition: all 0.3s ease-in-out;
 }
 .two:hover {
@@ -176,8 +177,8 @@ nav a {
   animation: slideIn 0.5s ease-in-out forwards;
   background-color: rgba(0, 0, 0, 0.714);
   border-radius: 10px;
-  padding: 10px;
-  width: 70%;
+  padding: 20px;
+  width: 75%;
   margin: 2rem auto;
 }
 
@@ -195,18 +196,17 @@ nav a {
 .contact-form-label {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  text-align: center;
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
 .contact-form-input {
-  width: 30rem;
-  padding: 0.5rem;
+  width: 27rem;
   font-size: 1.2rem;
-  border: 1px solid #ccc;
+  padding: 3px;
+  border: none;
   border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 4px rgb(255, 255, 255);
   margin-bottom: 1.5rem;
 }
 
@@ -367,10 +367,17 @@ nav a {
 .image-links a:focus {
   outline: none;
 }
+.image-links h1 {
+  text-shadow: 0px 0px 10px black;
+}
 .profile {
-  background-color: rgba(0, 0, 0, 0.658);
+  background-image: linear-gradient(
+    45deg,
+    rgba(8, 127, 138, 0.312),
+    rgba(0, 0, 0, 0.477)
+  );
   border-radius: 10px;
-  width: 90%;
+  width: 95%;
   height: 100%;
   margin: auto;
   display: flex;
@@ -378,7 +385,7 @@ nav a {
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* resume page styles*/

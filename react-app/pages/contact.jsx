@@ -8,12 +8,29 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission here
+    console.log(name, email, message);
+    alert(`Message Sent!🕊️\n To: ${name}\n Msg: ${message}`);
+
+    // const N = document.getElementById("name");
+    // const E = document.getElementById("email");
+    // const M = document.getElementById("message");
+    // N.value = "";
+    // E.value = "";
+    // M.value = "";
+    setName("");
+    setEmail("");
+    setMessage("");
   };
   const styles = {
     h1: {
       color: "white",
       fontSize: "50px",
       textAlign: "center",
+      textShadow: "0px 0px 10px black",
+    },
+    msg: {
+      color: "white",
+      textAlign: "left",
       textShadow: "0px 0px 10px black",
     },
   };
@@ -57,7 +74,7 @@ const ContactForm = () => {
         />
 
         <button type="submit" className="contact-form-button">
-          Send
+          <i className="fa fa-check"></i> Send
         </button>
       </form>
     </>
