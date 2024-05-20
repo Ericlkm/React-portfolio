@@ -53,6 +53,14 @@ function NavBar() {
                 Portfolio
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                to="/resume"
+                className={currentPage === "/resume" ? "one" : "two"}
+              >
+                Resume
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

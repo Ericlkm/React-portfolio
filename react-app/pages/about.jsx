@@ -1,4 +1,10 @@
+import { useState } from "react";
 export default function About() {
+  const [title, setTitle] = useState("");
+
+  function getTitle() {
+    setTitle((document.title = "FOUND IT!!!!!"));
+  }
   const styles = {
     text: {
       color: "white",
@@ -13,7 +19,7 @@ export default function About() {
     <>
       <section className="about-section">
         <div>
-          <img className="img2" src="../src/img/me.png" />
+          <img onClick={getTitle} className="img2" src="../src/img/me.png" />
           <h1 style={styles.text}>What's up my name is Eric!</h1>
           <p style={styles.p} className="p">
             Hi my name is Eric i'm 22 years old, from New York from there moved
@@ -34,25 +40,6 @@ export default function About() {
             through all the steps to get enrolled into this bootcamp and
             prepared to start my journey as a coder.
           </p>
-        </div>
-        <div className="info">
-          <a
-            style={{ textAlign: "center" }}
-            href="https://github.com/Ericlkm"
-            target="_blank"
-            title="My Github!"
-          >
-            <i
-              class="fa fa-github"
-              style={{ color: "white", fontSize: "60px" }}
-            ></i>
-          </a>
-          <a href="mailto: gtprinceeric.el1@gmail.com" title="Email me">
-            <i
-              class="fa-solid fa-envelope"
-              style={{ fontSize: "60px", color: "white" }}
-            ></i>
-          </a>
         </div>
       </section>
     </>

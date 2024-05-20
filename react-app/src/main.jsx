@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import About from "../pages/about.jsx";
 import ContactForm from "../pages/contact.jsx";
 import Portfolio from "../pages/portfolio.jsx";
+import Resume from "../pages/resume.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/portfolio",
         element: <Portfolio />,
+      },
+      {
+        path: "/resume",
+        element: <Resume />,
       },
     ],
   },
