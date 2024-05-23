@@ -7,6 +7,7 @@ function App() {
     <>
       <NavBar />
       <Outlet />
+      <br />
       <Footer />
     </>
   );
