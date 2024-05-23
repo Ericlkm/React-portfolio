@@ -4,7 +4,7 @@ export default function Portfolio() {
       <section className="profile">
         <div className="image-links">
           <h1>FunCast!🎢</h1>
-          <img src="../src/img/themeimg.png" alt="Example Image" />
+          <img src="./src/img/themeimg.png" alt="Example Image" />
           <div className="howTo-list">
             <ul>
               <h3>When using app you can...</h3>
@@ -39,7 +39,7 @@ export default function Portfolio() {
 
         <div className="image-links">
           <h1>Quiz Game!❓</h1>
-          <img src="../src/img/quiz.png" alt="Example Image" />
+          <img src="./src/img/quiz.png" alt="Example Image" />
           <div className="howTo-list">
             <ul>
               <h3>When application is started you can...</h3>
@@ -123,7 +123,7 @@ export default function Portfolio() {
 
         <div className="image-links">
           <h1> ShelfLife📚</h1>
-          <img src="../src/img/ShelfLife.png" alt="Example Image" />
+          <img src="./src/img/ShelfLife.png" alt="Example Image" />
           <div className="howTo-list">
             <ul>
               <h3>When using application you can...</h3>
@@ -157,7 +157,7 @@ export default function Portfolio() {
 
         <div className="image-links">
           <h1> Password Generator 🔑</h1>
-          <img src="../src/img/passwordGen.png" alt="Example Image" />
+          <img src="./src/img/passwordGen.png" alt="Example Image" />
           <div className="howTo-list">
             <ul>
               <h3>When using application you can...</h3>
@@ -191,7 +191,7 @@ export default function Portfolio() {
 
         <div className="image-links">
           <h1> Weather App</h1>
-          <img src="../src/img/weather.png" alt="Example Image" />
+          <img src="./src/img/weather.png" alt="Example Image" />
           <div className="howTo-list">
             <ul>
               <h3>When using application you can...</h3>
