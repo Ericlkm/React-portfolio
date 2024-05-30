@@ -1,4 +1,6 @@
 import { useState } from "react";
+import me from "../src/img/me.png";
+
 export default function About() {
   const [title, setTitle] = useState("");
 
@@ -18,7 +20,7 @@ export default function About() {
   return (
     <section className="about-section">
       <div>
-        <img onClick={getTitle} className="img2" src="/src/img/me.png" />
+        <img onClick={getTitle} className="img2" src={me} />
         <h1 style={styles.text}>What's up my name is Eric!</h1>
         <p style={styles.p} className="p">
           Hi my name is Eric i'm 22 years old, from New York from there moved to
