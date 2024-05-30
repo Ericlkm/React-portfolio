@@ -1,10 +1,17 @@
+import themeimg from "../src/img/themeimg.png";
+import quiz from "../src/img/quiz.png";
+import nt from "../src/img/nt.png";
+import ShelfLife from "../src/img/ShelfLife.png";
+import passwordGen from "../src/img/passwordGen.png";
+import weather from "../src/img/weather.png";
+
 export default function Portfolio() {
   return (
     <>
       <section className="profile">
         <div className="image-links">
           <h1>FunCast!🎢</h1>
-          <img src="./src/img/themeimg.png" alt="Example Image" />
+          <img src={themeimg} alt="Example Image" />
           <div className="howTo-list">
             <ul>
               <h3>When using app you can...</h3>
@@ -39,7 +46,7 @@ export default function Portfolio() {
 
         <div className="image-links">
           <h1>Quiz Game!❓</h1>
-          <img src="./src/img/quiz.png" alt="Example Image" />
+          <img src={quiz} alt="Example Image" />
           <div className="howTo-list">
             <ul>
               <h3>When application is started you can...</h3>
@@ -80,7 +87,7 @@ export default function Portfolio() {
 
         <div className="image-links">
           <h1>Note Taker 📝</h1>
-          <img src="../src/img/nt.png" alt="Example Image" />
+          <img src={nt} alt="Example Image" />
           <div className="howTo-list">
             <h2>How use Application!?</h2>
             <ol>
@@ -123,7 +130,7 @@ export default function Portfolio() {
 
         <div className="image-links">
           <h1> ShelfLife📚</h1>
-          <img src="./src/img/ShelfLife.png" alt="Example Image" />
+          <img src={ShelfLife} alt="Example Image" />
           <div className="howTo-list">
             <ul>
               <h3>When using application you can...</h3>
@@ -157,7 +164,7 @@ export default function Portfolio() {
 
         <div className="image-links">
           <h1> Password Generator 🔑</h1>
-          <img src="./src/img/passwordGen.png" alt="Example Image" />
+          <img src={passwordGen} alt="Example Image" />
           <div className="howTo-list">
             <ul>
               <h3>When using application you can...</h3>
@@ -191,7 +198,7 @@ export default function Portfolio() {
 
         <div className="image-links">
           <h1> Weather App</h1>
-          <img src="./src/img/weather.png" alt="Example Image" />
+          <img src={weather} alt="Example Image" />
           <div className="howTo-list">
             <ul>
               <h3>When using application you can...</h3>
