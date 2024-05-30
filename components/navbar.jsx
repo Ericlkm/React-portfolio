@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import image from "../src/img/image.gif";
 
 function NavBar() {
   const currentPage = useLocation().pathname;
@@ -12,7 +13,7 @@ function NavBar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light">
         <h1>
-          <img className="img" src="../src/img/image.gif" />
+          <img className="img" src={image} />
           <a href="/">
             <span className="name">Eric Lackram</span>
           </a>
